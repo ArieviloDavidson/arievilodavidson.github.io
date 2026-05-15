@@ -1,24 +1,49 @@
-.page-container {
-  padding: 2.5rem 0;
+.works-container {
+  padding: 4rem 2rem;
+  max-width: 1000px; /* Mais estreito que o grid de projetos, para ficar igual a imagem */
+  margin: 0 auto;
+  width: 100%;
 }
 
-.fade-in {
-  animation: fadeIn 0.5s ease-in-out;
+/* Header Styling */
+.page-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 4rem;
 }
 
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-.page-title {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-  font-weight: 700;
+.page-tag-works {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #ede9fe; /* Lilás claro */
+  color: var(--primary-color);
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  font-size: 0.875rem;
+  font-weight: 600;
   margin-bottom: 1rem;
 }
 
-.page-description {
-  color: var(--gray-700);
-  font-size: 1.125rem;
+.tag-icon-works {
+  color: var(--primary-color);
+}
+
+.page-title-works {
+  font-size: 3rem;
+  font-weight: 700;
+  background: linear-gradient(to right, #6d28d9, #a855f7); /* Roxo para rosa */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Lista de Experiências */
+.experiences-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
 }
