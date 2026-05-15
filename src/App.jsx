@@ -19,7 +19,7 @@ function App() {
         {/* Renderização Condicional */}
         {activeTab === 'sobre' && <About />}
         {activeTab === 'trabalhos' && <Works />}
-        {activeTab === 'python' && <PythonProjects />}
+        {activeTab === 'dados' && <PythonProjects />}
         {activeTab === 'web' && <WebProjects />}
       </main>
 

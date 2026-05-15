@@ -44,6 +44,12 @@
   color: white;
   opacity: 0;
   transition: opacity 0.3s ease;
+  text-decoration: none; /* remove sublinhado no a tag */
+}
+
+/* Remove o overlay de gradiente para os projetos de dados */
+.project-card.variant-data .project-image-overlay {
+  display: none;
 }
 
 .overlay-icon {
@@ -109,4 +115,45 @@
   padding: 0.25rem 0.75rem;
   border-radius: 1rem;
   border: 1px solid var(--border-color);
+}
+
+/* Cores específicas para tags da variante Data (Amarelo) */
+.project-card.variant-data .project-tag {
+  background-color: #fef3c7;
+  color: #d97706;
+  border-color: #fde68a;
+}
+
+/* Botões do Footer do Card (Dados) */
+.project-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.btn-code, .btn-demo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.btn-code:hover, .btn-demo:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+.btn-code {
+  background-color: #0f172a;
+  color: #ffffff;
+}
+
+.btn-demo {
+  background-color: #3b82f6;
+  color: #ffffff;
 }

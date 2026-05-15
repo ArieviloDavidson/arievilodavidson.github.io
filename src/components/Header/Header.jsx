@@ -1,4 +1,4 @@
-import { User, Briefcase, Code, Globe } from 'lucide-react';
+import { User, Briefcase, Database, Globe, Code } from 'lucide-react';
 import { motion } from 'framer-motion';
 import './Header.css';
 
@@ -6,7 +6,7 @@ const Header = ({ activeTab, setActiveTab }) => {
   const menuItems = [
     { id: 'sobre', label: 'Sobre Mim', icon: <User size={18} /> },
     { id: 'trabalhos', label: 'Trabalhos Recentes', icon: <Briefcase size={18} /> },
-    { id: 'python', label: 'Projetos Python', icon: <Code size={18} /> },
+    { id: 'dados', label: 'Projetos de Dados', icon: <Database size={18} /> },
     { id: 'web', label: 'Projetos Web', icon: <Globe size={18} /> },
   ];
 
