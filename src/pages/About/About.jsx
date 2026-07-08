@@ -1,5 +1,5 @@
 import { Code, Briefcase, User, Github, Linkedin, Instagram } from 'lucide-react';
-import profileImage from '../../assets/Davidson Oliveira.png';
+import profileImage from '../../assets/Davidson Oliveira.JPG';
 import './About.css';
 
 const About = () => {
