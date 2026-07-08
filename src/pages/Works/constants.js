@@ -1,6 +1,14 @@
 export const EXPERIENCES = [
   {
     id: 1,
+    role: "Consultor PJ Especializado em Desenvolvimento e Dados",
+    company: "Autônomo / Consultoria",
+    period: "mai 2026 - Presente",
+    description: "Atuação como consultor prestando serviços especializados em engenharia de dados e desenvolvimento de software, construindo soluções completas e escaláveis.",
+    color: "blue"
+  },
+  {
+    id: 2,
     role: "Engenheiro de Dados Júnior D I",
     company: "IPNET by Vivo",
     period: "mai 2025 - abr 2026",
@@ -8,7 +16,7 @@ export const EXPERIENCES = [
     color: "purple" 
   },
   {
-    id: 2,
+    id: 3,
     role: "Estagiário de Engenharia de Dados",
     company: "IPNET by Vivo",
     period: "mai 2023 - mai 2025",
@@ -16,7 +24,7 @@ export const EXPERIENCES = [
     color: "purple"
   },
   {
-    id: 3,
+    id: 4,
     role: "Estagiário em Data Science",
     company: "MAP | Assessoria em Marketplaces",
     period: "out 2022 - mar 2023",
@@ -24,7 +32,7 @@ export const EXPERIENCES = [
     color: "green"
   },
   {
-    id: 4,
+    id: 5,
     role: "Desenvolvedor web (Estágio)",
     company: "Serra Jr. Engenharia",
     period: "jan 2023 - out 2023",
